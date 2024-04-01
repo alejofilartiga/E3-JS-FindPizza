@@ -1,0 +1,39 @@
+.tarjeta {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0;
+  }
+.tarjeta h2 {
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    background-color: #eee;
+  }
+.tarjeta p {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+  }
+.tarjeta ul {
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+  }
+.tarjeta li {
+    padding: 5px 0;
+  }
+.error {
+    color: red;
+    padding: 10px;
+  }
